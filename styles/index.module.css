@@ -1,0 +1,35 @@
+.bgBlueHeader {
+    background-color: rgb(25, 118, 210);
+    height: 90px;
+    box-shadow: 0px 7px 15px -7px rgba(0, 0, 0, 0.447);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.title{
+    text-decoration: none;
+  }
+.title:hover{
+    text-decoration: underline !important;
+    color: #0070f3;
+}
+
+.borderLinks{
+    border: solid 1px rgb(224, 224, 224);
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
+    height: 140px;
+    color: black;
+    transition: all 0.3s;
+}
+
+.borderLinks:hover{
+    border: solid 1px rgb(25, 118, 210);
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
+    color: rgb(25, 118, 210);
+}
+
+
+  
