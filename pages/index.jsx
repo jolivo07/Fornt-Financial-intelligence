@@ -27,50 +27,50 @@ export default function Home() {
       </header>
       <main className='h-100 d-flex justify-content-center align-items-center mt-4 p-3'>
         <div>
-          <div className='container py-5 mt-5'>
+          <div className='container-md container-sm container-xl mt-5'>
             <div className="row">
               <div className="col-12">
-                <h1 className='display-3 fw-bolder text-center'>Bienvenido a <Link className={styles.title} href="https://www.fi-fintech.com/">FI Inteligencia Fianciera</Link>
+                <h1 className='display-3 fw-bolder text-center linktitle'>Bienvenido a <Link className={styles.title} href="https://www.fi-fintech.com/">FI Inteligencia Fianciera</Link>
                 </h1>
               </div>
             </div>
           </div>
 
-          <div className="container-fluid my-5">
+          <div className="container-fluid my-xl-5">
             <div className="row">
 
-              <div className="col-6 px-0">
+              <div className="col-sm-12 col-xl-6 col-md-12 px-0">
                 <Link href="https://www.fi-fintech.com/index.php/invertir/" className='text-decoration-none'>
                 <div className={styles.borderLinks}>
-                <h4 className='font-bold mb-3'>Invierte →</h4>
-                <p className='fs-5'>Cada inversionista participa en oportunidades de crédito prestando dinero a otras personas y a cambio reciben mejor retorno de los créditos desembolsados.</p>
+                <h4 className='font-bold mb-3 subtitle'>Invierte →</h4>
+                <p className='fs-5 parrafo'>Cada inversionista participa en oportunidades de crédito prestando dinero a otras personas y a cambio reciben mejor retorno de los créditos desembolsados.</p>
                 </div>
                 </Link>
               </div>
 
-              <div className="col-6 px-0">
+              <div className="col-sm-12 col-xl-6 col-md-12 px-0">
                 <Link href="https://www.fi-fintech.com/index.php/invertir/" className='text-decoration-none'>
                 <div className={styles.borderLinks}>
-                <h4 className='font-bold mb-3'>Invierte en préstamos de persona a persona →</h4>
-                <p className='fs-5'>Gana buenos rendimientos prestándole a personas con buen historial crediticio y capacidad de pago comprobada.</p>
+                <h4 className='font-bold mb-3 subtitle'>Invierte en préstamos de persona a persona →</h4>
+                <p className='fs-5 parrafo'>Gana buenos rendimientos prestándole a personas con buen historial crediticio y capacidad de pago comprobada.</p>
                 </div>
                 </Link>
               </div>
 
-              <div className="col-6 px-0">
+              <div className="col-sm-12 col-xl-6 col-md-12 px-0">
                 <Link href="https://www.fi-fintech.com/index.php/simula-tu-prestamo/" className='text-decoration-none'>
                 <div className={styles.borderLinks}>
-                <h4 className='font-bold mb-3'>Simula tu préstamo →</h4>
-                <p className='fs-5'>¡ Libertad es tener tu credito en 4 pasos, estamos aqui para acompañarte en tu solicitud !</p>
+                <h4 className='font-bold mb-3 subtitle'>Simula tu préstamo →</h4>
+                <p className='fs-5 parrafo'>¡ Libertad es tener tu credito en 4 pasos, estamos aqui para acompañarte en tu solicitud !</p>
                 </div>
                 </Link>
               </div>
 
-              <div className="col-6 px-0">
+              <div className="col-sm-12 col-xl-6 col-md-12 px-0">
                 <Link href="https://www.fi-fintech.com/index.php/como-funciona/" className='text-decoration-none'>
                 <div className={styles.borderLinks}>
-                <h4 className='font-bold mb-3'>Como Funciona? →</h4>
-                <p className='fs-5'>Conectamos directamente a personas que necesitan un préstamo con personas que quieren invertir su dinero.</p>
+                <h4 className='font-bold mb-3 subtitle'>Como Funciona? →</h4>
+                <p className='fs-5 parrafo'>Conectamos directamente a personas que necesitan un préstamo con personas que quieren invertir su dinero.</p>
                 </div>
                 </Link>
               </div>

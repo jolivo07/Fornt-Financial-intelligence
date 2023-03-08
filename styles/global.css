@@ -1,6 +1,20 @@
 #__next, body, html {
-    height: 90vh;
+    height: 100vh;
   }
 
-
-
+  @media only screen and (max-width: 525px) {
+    img{
+      width: 250px;
+      height: 50px;
+    }
+    .linktitle{
+      padding: 2rem 0rem;
+      font-size: 30px !important;
+    }
+    .subtitle{
+      font-size: 20px !important;
+    }
+   .parrafo{
+    font-size: 15px !important;
+   }
+  }
